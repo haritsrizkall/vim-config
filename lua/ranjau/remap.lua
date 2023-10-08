@@ -48,3 +48,15 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+-- make you move between tab easily af
+vim.keymap.set("n", "<C-h>", "<C-w>h")
+vim.keymap.set("n", "<C-j>", "<C-w>j")
+vim.keymap.set("n", "<C-k>", "<C-w>k")
+vim.keymap.set("n", "<C-l>", "<C-w>l")
+
+-- try to resize the tab?? EZ
+vim.keymap.set("n", "<C-Left>", ":vertical resize +3<CR>")
+vim.keymap.set("n", "<C-Right>", ":vertical resize -3<CR>")
+vim.keymap.set("n", "<C-Up>", ":resize -3<CR>")
+vim.keymap.set("n", "<C-Down>", ":resize +3<CR>")
+

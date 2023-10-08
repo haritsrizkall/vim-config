@@ -7,7 +7,7 @@ vim.opt.termguicolors = true
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<cr>")
 
 require'nvim-tree'.setup({
-    sort_by = " ase_sensitike",
+    sort_by = "case_sensitive",
     view = {
         width = 30,
     },
